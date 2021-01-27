@@ -5,7 +5,7 @@
 
 body{
     background-color: #333;
-    height: 2000px;
+    min-height: 2000px;
 }
 .descr__first, .descr__second{
     color: #fff;
@@ -20,16 +20,16 @@ body{
     -o-transform: translateX(-50%);
 }
 .descr__first{
-    top: 920px;
+    top: 1320px;
 }
 .descr__second{
     display: none;
-    top: 1170px;
+    top: 1570px;
 }
 
 .center{
     position: absolute;
-    top: 1000px;
+    top: 1400px;
     left: 50%;
     transform: translateX(-50%);
     -webkit-transform: translateX(-50%);
